@@ -4,93 +4,96 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <form method="post" action="…">
-      <div class="part1">
-        <label for="name">
-          Name:
-          <input id="name" type="text" required maxlength="25" />
-        </label>
-        <br /><br />
-        <label for="surname">
-          Surname:
-          <input id="surname" type="text" required maxlength="25" />
-        </label>
-        <br /><br />
-        <label for="address">
-          Address:
-          <input id="address" type="text" maxlength="1000" />
-        </label>
-        <br /><br />
-        <label for="city">
-          City:
-          <input id="city" type="text" />
-        </label>
-        <br /><br />
-        <label for="zipcode">
-          Zip Code:
-          <input id="zipcode" type="number" />
-        </label>
-        <br /><br />
-      </div>
-      <hr />
-      <hr />
-      <div class="part2">
-        <label for="checkin-date">
-          Check In Date:
-          <input id="checkin-date" type="date" required />
-        </label>
-        <br /><br />
-        <label for="num-of-dates">
-          Number of Days:
-          <input id="num-of-dates" type="number" max="30" required />
-        </label>
-      </div>
-      <hr />
-      <hr />
-      <div class="part3">
-        <fieldset>
-          <legend>Room Type</legend>
-          <label for="type1">
-            Type-1:
-            <input type="radio" name="room-type" id="type1" required />
+    <form method="post" action="#">
+      <fieldset>
+        <legend>contact us</legend>
+        <div class="part1">
+          <label for="name">
+            Name:
+            <input id="name" type="text" required maxlength="25" />
           </label>
-          <label for="type2">
-            Type-2:
-            <input type="radio" name="room-type" id="type2" required />
+          <br /><br />
+          <label for="surname">
+            Surname:
+            <input id="surname" type="text" required maxlength="25" />
           </label>
-          <label for="type3">
-            Type-3:
-            <input type="radio" name="room-type" id="type3" required />
+          <br /><br />
+          <label for="address">
+            Address:
+            <input id="address" type="text" maxlength="1000" />
           </label>
-        </fieldset>
+          <br /><br />
+          <label for="city">
+            City:
+            <input id="city" type="text" />
+          </label>
+          <br /><br />
+          <label for="zipcode">
+            Zip Code:
+            <input id="zipcode" type="number" />
+          </label>
+          <br /><br />
+        </div>
         <hr />
         <hr />
-        <fieldset>
-          <legend>Services</legend>
-          <label for="one">
-            One:
-            <input type="checkbox" name="types" id="one" />
+        <div class="part2">
+          <label for="checkin-date">
+            Check In Date:
+            <input id="checkin-date" type="date" required />
           </label>
-          <label for="two">
-            Two:
-            <input type="checkbox" name="types" id="two" />
+          <br /><br />
+          <label for="num-of-dates">
+            Number of Days:
+            <input id="num-of-dates" type="number" max="30" required />
           </label>
-          <label for="three">
-            Three:
-            <input type="checkbox" name="types" id="three" />
+        </div>
+        <hr />
+        <hr />
+        <div class="part3">
+          <fieldset>
+            <legend>Room Type</legend>
+            <label for="type1">
+              Type-1:
+              <input type="radio" name="room-type" id="type1" required />
+            </label>
+            <label for="type2">
+              Type-2:
+              <input type="radio" name="room-type" id="type2" required />
+            </label>
+            <label for="type3">
+              Type-3:
+              <input type="radio" name="room-type" id="type3" required />
+            </label>
+          </fieldset>
+          <hr />
+          <hr />
+          <fieldset>
+            <legend>Services</legend>
+            <label for="one">
+              One:
+              <input type="checkbox" name="types" id="one" />
+            </label>
+            <label for="two">
+              Two:
+              <input type="checkbox" name="types" id="two" />
+            </label>
+            <label for="three">
+              Three:
+              <input type="checkbox" name="types" id="three" />
+            </label>
+          </fieldset>
+          <label for="notes">
+            notes:
+            <textarea id="notes"></textarea>
           </label>
-        </fieldset>
-        <label for="notes">
-          notes:
-          <textarea id="notes"></textarea>
-        </label>
-      </div>
+        </div>
 
-      <button type="submit">BOOK!</button>
+        <button type="submit">BOOK!</button>
+      </fieldset>
     </form>
   </body>
 </html>
